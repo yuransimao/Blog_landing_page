@@ -2,9 +2,10 @@
 .InputEmail{
     width: 80%;
     text-align: left;
-    padding: 0.5rem;
+    padding: 1.5rem;
     line-height: 4rem;
-    border: 1px solid $border-color;
+    background: $White-color;
     font-size: 1.5rem;
     border-radius: .3rem;
+    text-transform: capitalize;
 }

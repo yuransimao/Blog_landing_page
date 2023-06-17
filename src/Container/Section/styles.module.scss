@@ -3,14 +3,15 @@
 .Section{
    height: 90%;
     width: 100%;
-   padding: 0 7rem;
-    background: $background_home;
 
+   padding: 0 0 0 9rem;
+    background: $background_home;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    align-items: center;
+    
 
     .Container-text{
+        margin-top: 15rem;
         h1{
             font-size: 4.5rem;
             font-weight: 500;
@@ -18,22 +19,26 @@
         }
        h2{
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 200;
         color:$subtitle-color;
+        font-family: $Montserrat-font;
        }
        p{
         font-size: 1.5rem;
-        font-weight: 200;
-        color:$subtitle-color;
+        font-weight: 300;
+        color:$Title-color;
         max-width: 70%;
         line-height: 2.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
+        font-family: $Montserrat-font;
        }
         .container{
             width: 60%;
             display: flex;
             column-gap: 0.5rem;
-            height: 5vh;
+            height: 6vh;
+            box-shadow: 4px 4px 4px 4px rgba(17, 17, 17, 0.185);
+            border-radius: .5rem;
         }
     }
     .Container-image{

@@ -3,6 +3,48 @@
 .Section{
    height: 90%;
     width: 100%;
-   
+   padding: 0 7rem;
     background: $background_home;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    align-items: center;
+
+    .Container-text{
+        h1{
+            font-size: 4.5rem;
+            font-weight: 500;
+            line-height: 5rem;
+        }
+       h2{
+        font-size: 2rem;
+        font-weight: 300;
+        color:$subtitle-color;
+       }
+       p{
+        font-size: 1.5rem;
+        font-weight: 200;
+        color:$subtitle-color;
+        max-width: 70%;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+       }
+        .container{
+            width: 60%;
+            display: flex;
+            column-gap: 0.5rem;
+            height: 5vh;
+        }
+    }
+    .Container-image{
+        height: 98%;
+        width:100%;
+        img{
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        
+        }
+    }
 }

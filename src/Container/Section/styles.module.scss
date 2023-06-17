@@ -13,9 +13,10 @@
     .Container-text{
         margin-top: 15rem;
         h1{
-            font-size: 4.5rem;
+            font-size: 5rem;
             font-weight: 500;
-            line-height: 5rem;
+            line-height: 6rem;
+            color:$Title-color;
         }
        h2{
         font-size: 2rem;
@@ -53,3 +54,5 @@
         }
     }
 }
+
+

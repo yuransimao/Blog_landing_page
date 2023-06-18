@@ -19,3 +19,41 @@ export const featurePopular = [
         subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
         },
 ]
+export const Popularweek = [
+    {
+    id:1,
+    img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+    title: "Add web animations with  After Effects & Lottie",
+    subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+    },
+    {
+    id:2,
+    img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+    title: "Add web animations with  After Effects & Lottie",
+    subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+    },
+    {
+        id:3,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+        title: "Add web animations with  After Effects & Lottie",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:4,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+        title: "Add web animations with  After Effects & Lottie",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:5,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+        title: "Add web animations with  After Effects & Lottie",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:6,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
+        title: "Add web animations with  After Effects & Lottie",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+]

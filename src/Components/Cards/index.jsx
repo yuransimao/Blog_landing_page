@@ -13,7 +13,7 @@ Cards.propTypes ={
 export function Cards(props){
    
     return(
-       <div className={Styles["Cards"]}>
+       <div className={Styles[props.customclass]}>
         <div className={Styles["Cards-image"]}> <img src={props.img}alt="cidae" /></div>
         <div className={Styles["Cards-text"]}>
             <h1>{props.title}</h1>

@@ -1,0 +1,17 @@
+.Section{
+    padding: 6rem 18% 4rem 7%;
+
+
+    .container-text{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 1.7rem;
+        }
+        span{
+            font-size: 1.7rem;
+        }
+    }
+
+}

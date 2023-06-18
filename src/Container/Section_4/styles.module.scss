@@ -2,31 +2,44 @@
 .Section{
     padding: 6rem 7% 4rem 7%;
     width:100%;
-   
-    
 
-overflow: hidden;
     .container-text{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
+       
         h1{
             font-size: 1.7rem;
         }
-        button{
-            font-size: 1.5rem;
-            border:1px solid $border-color;
-            border-radius:0.5rem ;
-            padding:1rem 2rem;
-            background:none;
-            cursor:pointer;
-        }
+        
     }
     .Section-container{
         margin-top:6rem;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(26rem, 2fr));
-        gap:13rem;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr));
+        gap:8rem;
+    }
+
+    .Paginacao {
+        display:flex;
+        justify-content:center;
+        column-gap:2rem;
+        font-size:1.5rem;
+        padding:4rem 0;
+
+        button{
+            transition:all .3s;
+            padding:1rem 2.5rem;
+            border-radius:0.5rem;
+            cursor:pointer;
+            background:none;
+            &:hover{
+                color:$White-color;
+                background:$btn-color;
+                
+            }
+        }
+        .Active-btn{
+            color:$White-color;
+                background:$btn-color;
+        }
     }
 
 }

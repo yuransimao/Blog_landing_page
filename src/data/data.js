@@ -19,6 +19,7 @@ export const featurePopular = [
         subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
         },
 ]
+
 export const Popularweek = [
     {
     id:1,
@@ -54,6 +55,57 @@ export const Popularweek = [
         id:6,
         img : "https://lh3.googleusercontent.com/pw/AJFCJaX3-rfOq-DP92I4Z3lr8dp5zWmQAy3UREsjDnKfALtSMw7ChynHDRLsrnUiOX6-KK3-wlzkBA-NvQZSa5KLFcheCHCK_BbOWF1ui45oQ-elIiMbjl4f4SEVT-oaqhOL0ql_6o239K_RzygZoEmm9ThS=w1031-h687-s-no?authuser=0",
         title: "Add web animations with  After Effects & Lottie",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+]
+
+export const Recentpost = [
+    {
+    id:1,
+    img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+    title: "Why communication between design teams is essencial for our industry ",
+    subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+    },
+    {
+    id:2,
+    img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+    title: "Why communication between design teams is essencial for our industry ",
+    subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+    },
+    {
+        id:3,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:4,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:5,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:6,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:7,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
+        subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
+        },
+    {
+        id:8,
+        img : "https://lh3.googleusercontent.com/pw/AJFCJaWtjVnLRzVkMinb2ME3XVmEgHzpiucvnrmgiOm8rDnesfWyxS63qRyabCBbJfkG15sC4RMBNjdwshZPJBIh2RkbEeYIWhQLXtiwBmMh5RgCXc9D2ceqwksFoeHDw7qCSXjhR5dlG3r30z6e_iX3TUlq=w1043-h687-s-no?authuser=0",
+        title: "Why communication between design teams is essencial for our industry ",
         subtitle:"Small river  named Duden  flows by their place and supplies it with the necessary..."
         },
 ]

@@ -7,14 +7,36 @@ import { useState } from "react"
 export function Navbar(){
 
     const [show, setShow] = useState(false)
+    const [fixed, setFixed] = useState(false)
+
+    window.onscroll = function ()  {
+        if (window.scrollY >= 90) {
+          setFixed(true);
+          console.log("ok");
+        } else if (window.scrollY >= 270) {
+          setFixed(false);
+          setShow(false)
+        } else if (window.scrollY === 0) {
+          setFixed(false);
+        }
+      };
+  
+      
+  
 
     window.addEventListener('resize', () =>{
         if(window.innerWidth > 768){
             setShow(false)
         }
     })
+
+   
+        
+       
+
+
     return (
-        <div className={Styles['Navbar']}>
+        <div className={fixed ? Styles['Nabarfixed'] : Styles['Navbar']}>
             <div className={Styles["Logo"]}><a href="#">Logo</a></div>
 
 

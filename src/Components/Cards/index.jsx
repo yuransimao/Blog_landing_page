@@ -3,6 +3,13 @@ import {GrView} from "react-icons/gr"
 import {BiComment} from "react-icons/bi"
 import P from "prop-types"
 
+Cards.propTypes ={
+    title: P.string,
+    subtitle : P.string,
+    img : P.string,
+    customclass : P.string
+}
+
 export function Cards(props){
    
     return(

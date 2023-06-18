@@ -15,8 +15,9 @@ html, body,#root, .App{
     width:100vw;
     font-size:62.2%;
     font-family:$Poppins-font;
-    overflow-x: hidden;
+   
 }
+
 
 @media(max-width:768px){
     html, body,#root, .App{

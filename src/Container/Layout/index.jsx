@@ -6,8 +6,10 @@ export function Layout(){
     return (
         <>
         <Navbar/>
-        <Section/>
-        <Section2/>
+        <div className="Layout">
+            <Section/>
+            <Section2/>
+        </div>
         </>
     )
 }

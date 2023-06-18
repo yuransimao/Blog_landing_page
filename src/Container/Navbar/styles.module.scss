@@ -1,6 +1,6 @@
 @import "../../Styles/Import.scss";
 
-.Navbar{
+.Navbar,.Nabarfixed{
 display:flex;
 align-items:center;
 height:10vh;
@@ -8,6 +8,7 @@ width: 100%;
 font-size:1.5rem;
 padding: 0 4rem;
 background: $White-color;
+
 .Container-nav{
 display:flex;
 justify-content:space-between;
@@ -83,10 +84,16 @@ cursor: pointer;
 }
 
 }
+.Nabarfixed{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
 
+}
 
 @media (max-width: 768px){
-.Navbar{
+.Navbar,.Nabarfixed{
 
 justify-content: space-between;
 .Container-nav{

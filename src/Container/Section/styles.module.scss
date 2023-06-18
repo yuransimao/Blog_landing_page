@@ -1,13 +1,13 @@
 @import "../../Styles/Import.scss";
 
 .Section{
-   height:auto;
+   height:90%;
     width: 100%;
 
    padding: 0 0 0 8%;
     background: $background_home;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     align-items: center;
 
     .Container-text{
@@ -45,6 +45,7 @@
     .Container-image{
         height:100%;
         flex:1;
+        width: 100%;
         
         img{
             max-width: 100%;
@@ -56,6 +57,44 @@
         }
     }
 }
+
+
+@media (max-width: 768px){
+    .Section{
+        height: 60%;
+        .Container-text{
+       
+          
+            .container{
+                width: 100%;
+               
+            }
+        }
+    }
+}
+@media (max-width: 568px){
+    .Section{
+        height: auto;
+        .Container-text{
+       padding: 7% 0;
+          h1{
+            font-size: 3rem;
+            line-height: 3rem;
+          }
+          h2{
+            font-size: 1.5rem;
+          }
+          p{
+            font-size: 1.3rem;
+          }
+
+          .container{
+              height: 5vh;
+             
+          }
+        }
+        }
+    }
 
 
 

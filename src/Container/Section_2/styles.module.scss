@@ -1,7 +1,7 @@
 .Section{
-    padding: 6rem 18% 4rem 7%;
+    padding: 6rem 7% 4rem 7%;
 
-
+overflow: hidden;
     .container-text{
         display:flex;
         justify-content: space-between;
@@ -10,8 +10,27 @@
             font-size: 1.7rem;
         }
         span{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
     }
+    .Section-container{
+        margin-top:4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 2fr));
+        gap:13rem;
+    }
 
+}
+
+@media (max-width:672px){
+    .Section{
+       
+        .Section-container{
+           align-items: center;
+           gap:2.5rem;
+            
+            
+        }
+    
+    }
 }
